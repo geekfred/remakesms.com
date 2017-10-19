@@ -1,0 +1,11 @@
+<loader version="1.0">
+  <application id="Google Sync">
+    <name>Google Sync</name>
+    <description></description>
+    <version>0.7.3</version>
+    <vendor>Google</vendor>
+    <fileset Java="1.38">
+    <files>GoogleSync_40_en.cod</files>
+    </fileset>
+  </application>
+</loader>

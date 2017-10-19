@@ -1,0 +1,216 @@
+{
+	"layer":"remake2",
+	"fullRefresh": true,
+	"errorCode": 0,
+	"errorString": "Ok",
+	"animations": {
+		"onCreate":[{
+			"interpolation": "overshoot",
+			"length": 300,
+			"from": 0,
+			"delay": 0,
+			"repeat": false,
+			"type": "scale",
+			"axis": {
+				"y": 1,
+				"x": 1,
+				"z": 1
+			},
+			"persist": true
+		},{
+			"interpolation": "overshoot",
+			"length": 600,
+			"from": -180,
+			"to":0,
+			"delay": 0,
+			"repeat": false,
+			"type": "rotate",
+			"axis": {
+				"y": 0,
+				"x": 0,
+				"z": 1
+			},
+			"persist": true
+		}]
+	},
+	"hotspots": [{
+		"id":"call",
+		"anchor": {
+			"referenceImage": "reference"
+		},
+		"object": {
+			"url":"http://remakesms.com/remake2/images/call.png",
+			"contentType":"video/mp4",
+			"size": 0.02
+		},
+		"actions": [{
+			"uri": "tel:+31624643595",
+			"label": "Call Menno Bieringa",
+			"contentType": "application/vnd.layar.internal"
+		}],
+		"transform": {
+			"translate":{
+				"x": -0.033,
+				"y": 0.03,
+				"z": 0
+			}
+		},
+		"showBiwOnClick":false,
+		"showSmallBiw":false,
+		"text": {
+			"title": "Call Menno Bieringa"
+		}
+	},
+	{
+		"id":"mail",
+		"anchor": {
+			"referenceImage": "reference"
+		},
+		"object": {
+			"url":"http://your.server.com/diybusinesscard/images/mail.png",
+			"contentType":"image/png",
+			"size": 0.02
+		},
+		"actions": [{
+			"uri": "mailto:mbieringa@gmail.com",
+			"label": "Mail Menno Bieringa",
+			"contentType": "application/vnd.layar.internal"
+		}],
+		"transform": {
+			"translate":{
+				"x": 0.033,
+				"y": 0.03,
+				"z": 0
+			}
+		},
+		"showBiwOnClick":false,
+		"showSmallBiw":false,
+		"text": {
+			"title": "Mail Menno Bieringa"
+		}
+	},
+	{
+		"id":"flower",
+		"anchor": {
+			"referenceImage": "reference"
+		},
+		"object": {
+			"url":"http://your.server.com/diybusinesscard/images/flower.png",
+			"contentType":"image/png",
+			"size": 0.04
+		},
+		"transform": {
+			"translate":{
+				"x": -0.019,
+				"y": 0.005,
+				"z": -0.005
+			}
+		},
+		"showBiwOnClick":false,
+		"showSmallBiw":false,
+		"text": {
+			"title": "Flower"
+		},
+		"animations": {
+			"onCreate":[{
+				"interpolation": "linear",
+				"length": 8000,
+				"from": -359,
+				"to": 0,
+				"delay": 0,
+				"repeat": true,
+				"type": "rotate",
+				"axis": {
+					"y": 0,
+					"x": 0,
+					"z": 1
+				},
+				"persist": true
+			}]
+		}
+	},
+	{
+		"id":"button-web",
+		"anchor": {
+			"referenceImage": "reference"
+		},
+		"object": {
+			"url":"http://your.server.com/diybusinesscard/images/button%20www.png",
+			"contentType":"image/png",
+			"size": 0.018
+		},
+		"actions": [{
+			"uri": "http://www.mennobieringa.nl/",
+			"label": "Website Menno Bieringa",
+			"contentType": "text/html"
+		}],
+		"transform": {
+			"translate":{
+				"x": -0.03,
+				"y": -0.027,
+				"z": 0
+			}
+		},
+		"showBiwOnClick":false,
+		"showSmallBiw":false,
+		"text": {
+			"title": "Title"
+		}
+	},
+	{
+		"id":"button-face",
+		"anchor": {
+			"referenceImage": "reference"
+		},
+		"object": {
+			"url":"http://your.server.com/diybusinesscard/images/button%20face.png",
+			"contentType":"image/png",
+			"size": 0.018
+		},
+		"actions": [{
+			"uri": "http://www.facebook.com/profile.php?id=your-facebook-id",
+			"label": "Menno on Facebook",
+			"contentType": "text/html"
+		}],
+		"transform": {
+			"translate":{
+				"x": 0,
+				"y": -0.027,
+				"z": 0
+			}
+		},
+		"showBiwOnClick":false,
+		"showSmallBiw":false,
+		"text": {
+			"title": "Title"
+		}
+	},
+	{
+		"id":"button-twitter",
+		"anchor": {
+			"referenceImage": "reference"
+		},
+		"object": {
+			"url":"http://your.server.com/diybusinesscard/images/button%20twitter.png",
+			"contentType":"image/png",
+			"size": 0.018
+		},
+		"actions": [{
+			"uri": "http://twitter.com/#!/YourTwitterName",
+			"label": "Menno Bieringa on Twitter",
+			"contentType": "text/html"
+		}],
+		"transform": {
+			"translate":{
+				"x": 0.03,
+				"y": -0.027,
+				"z": 0
+			}
+		},
+		"showBiwOnClick":false,
+		"showSmallBiw":false,
+		"text": {
+			"title": "Twitter... Booooring..."
+		}
+	}]
+}
